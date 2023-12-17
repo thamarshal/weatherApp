@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Weather App</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style/style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"rel="stylesheet"integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"crossorigin="anonymous"/> -->
+        <script src="https://kit.fontawesome.com/956d15f05d.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+       <h2>Weather App</h2>
+       <div class="card">
+        <div class="card-body">
+            <input type="text" placeholder="enter city name" spellcheck="false" class="input">
+            <button ><img src="images/search.png"/></i></button>
+            <!-- <button ><i class="fa-solid fa-magnifying-glass-location fa-2x"></i></button> -->
+            
+        </div>
+        <div >
+            <p class="error">Invalid city name</p>
+        </div>
+        
+        <div class="weather">
+            <img src="images/rain.png" class="weather-icon"/>
+            <p class="condition">Condition</p>
+            <h1 class="temp">temp</h1>
+            <h2 class="city">City</h2>
+        
+
+
+        <div class="details">
+
+            <div class="col">
+                <img src="images/humidity.svg"/>
+                <div>
+                    <p class="humidity">%</p>
+                    <p>Humidity</p>
+                </div>
+                
+            </div>
+
+            <div class="col">
+                <img src="images/wind.svg"/>
+                <div>
+                    <p class="wind">km/h</p>
+                    <p>wind speed</p>
+                </div>
+                
+            </div>
+</div>
+        <div class="details2">
+
+                <div class="col2">
+                    <img src="images/feels-like.svg"/>
+                    <div>
+                        <p class="feels-like">°c</p>
+                        <p>Feels like</p>
+                    </div>
+                </div>
+
+                <div class="col2">
+                        <img src="images/pressure-light.svg"/>
+                        <div>
+                            <p class="pressure">hPa</p>
+                            <p>Pressure</p>
+                        </div>
+                </div>
+        </div>
+    </div>
+     </div>
+
+
+       <script src="script/script.js"></script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"crossorigin="anonymous"></script> -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"crossorigin="anonymous"></script> -->
+    </body>
+</html>

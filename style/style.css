@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black !important;
+}
+h2{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 70px;
+}
+.card{
+    width: 90%;
+    /* max-width: 470px;  used for phoe screen */
+    max-width: 470px;  
+    background: linear-gradient(135deg, #00feba , #5b548a);
+    margin: 35px auto 0;
+    color: #fff;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+
+}
+
+.card-body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+input{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    border-radius: 30px;
+    margin-right: 16px ;
+    font-size: 18px ;
+    height: 60px;
+    flex: 1;
+    padding: 10px 25px ;
+   
+
+}
+button{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    width: 65px !important;
+    height: 65px !important;
+    border-radius: 50% !important;
+    cursor: pointer;
+}
+button img{
+    width: 16px;
+}
+.error{
+    margin-top: 20px;
+    font-weight: 600;
+
+    display: none;
+    
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather{
+    display: none;
+}
+/* .condition{
+    font-weight: 500;
+    font-size: 28px ;
+} */
+.weather p{
+    font-weight: 500;
+    font-size: 20px ;
+}
+.weather h1{
+    font-size: 80px;
+    /* font-weight: 500; */
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details, .details2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col, .col2{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    
+
+}
+.col img, .col2 img{
+    width: 55px;
+    margin-right: 10px;
+}
+
+.humidity, .wind, .feels-like, .pressure{
+    font-size: 20px;
+    margin-top: -6px;
+
+}
